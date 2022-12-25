@@ -1,3 +1,40 @@
 body {
 	background-color: #8dced8;
+	margin: 0;
+    padding: 0;
+}
+
+#nav-bar{
+	background-color: #5fd163;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+}
+
+
+#nav-list{
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-option {
+	list-style: none;
+}
+
+.nav-option-link{
+    color: #aaa;
+    background-color:#FF0;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+.nav-option-link:hover:not(#nav-option-link-default){
+	background-color: #a6eeb9;
+}
+
+#nav-option-link-default{
+	background-color: #a6eeb9;
 }
